@@ -1,0 +1,32 @@
+Se utiliza para posicionarte en la carpeta deseada dentro de una carpeta mayor
+$ cd seguido_del_nombre_de_la_carpeta
+Te permite ir una ruta para atrás dentro de las carpetas
+$ cd ../ 
+Te permite crear una o varias carpetas al mismo tiempo
+$ mkdir nombre_carpeta 
+Te permite crear uno o más archivos
+$ touch nombre_archivo.extensión 
+Te permite configurar de forma local tu usuario en github
+$ git config user.name nombre_usuario 
+Te permite configurar el correo electrónico usado en github, forma parte de la misma configuración antes mencionada
+$ git config user.email nombre_email 
+Configuras el repositorio de github de forma local, lo vinculas
+$ git remote add origin main nombre_repositorio 
+Permite crear un repositorio (vacío)
+$ git init 
+Hace una replica de tu repositorio online
+$ git clone
+Te permite agregar al repositorio todos los archivos creados
+$ git add .
+Te permite agregar un archivo determinado
+$ git add nombre_archivo 
+Te permite ver el estado de los archivos en tu repositorio
+$ git status 
+Todo cambio (ej. desde que el repositorio está vacío) debe guardarse con este comando porque sino no queda registrado
+$ git commit -m "mensaje que identifique los cambios realizados" 
+Permite ver la historia de los commits realizados
+$ git log 
+Permite subir el contenido generado al repositorio
+$ git push origin main 
+Descarga el contenido del repositorio online
+$ git pull origin main 
