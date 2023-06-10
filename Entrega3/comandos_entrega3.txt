@@ -1,0 +1,43 @@
+Profe, subo un archivo con los comandos porque la captura no logra verse bien al ampliar la imagen, igual la subo para que quede el registro tal cual solicitó en la entrega.
+Aclaro que en la captura se visualizan comandos que le erré en alguna letra y por eso se ve más largo, acá lo tiene depurado:
+
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (main)  
+$ git init
+Reinitialized existing Git repository in C:/Users/Nana-/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda/.git/
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (main)  
+$ git remote add origin https://github.com/gioalgalarronda/Mochila_Giovanna_Algalarronda.git
+error: remote origin already exists.
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (main)  
+$ git remote -v
+origin  https://github.com/gioalgalarronda/Mochila_Giovanna_Algalarronda.git (fetch)
+origin  https://github.com/gioalgalarronda/Mochila_Giovanna_Algalarronda.git (push)
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (main)  
+$ git branch entrega3
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (main)  
+$ git checkout entrega3 
+Switched to branch 'entrega3'
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda (entrega3)
+$ cd Entrega3
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda/Entrega3 (entrega3)
+$ touch entrega3.txt
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/Mochila_Giovanna_Algalarronda/Entrega3 (entrega3)
+$ git add .
+
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'entrega3' on GitHub by visiting:
+remote:      https://github.com/gioalgalarronda/Mochila_Giovanna_Algalarronda/pull/new/entrega3
+remote:
+To https://github.com/gioalgalarronda/Mochila_Giovanna_Algalarronda.git
+ * [new branch]      entrega3 -> entrega3
