@@ -1,0 +1,15 @@
+ip privada de mi MV
+inet addr:10.0.2.15
+
+la ip publica corresponde a la ip publica de mi maquina *maquina host*
+179.25.83.254 
+
+la direccion MAC es
+HWaddr 08:00:27:39:15:7d
+
+Tal como mencione anteriormente la ip publica coincide con la del host pero la ip privada es diferente>
+192.168.56.1
+
+
+
+
